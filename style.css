@@ -1,3 +1,63 @@
-h1{
-    color: brown;
+a{
+    text-decoration: none;
+}
+#header{
+    color:rgba(0, 0, 0, 0.795);
+    background-color: white;
+}
+
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#logo li{
+    list-style: none;
+}
+
+#logo li h6{
+   font-weight: bold; 
+   font-size: 20px;
+}
+
+.col-md-2:hover{
+
+    background-color:rgb(105, 194, 253);
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+color: black;
+padding: 15px 6px;
+display: block;
+
+}
+
+#menu li a:hover{
+background-color:rgb(105, 194, 253);
+}
+
+#banner{
+
+    background-color: rgb(105, 194, 253);
+
+}
+
+.banner-content{
+
+    padding: 9rem;
+}
+
+button{
+    border: none;
+}
+
+button:hover{
+    background-color:  rgb(33, 145, 219);
+    color: white;
 }
