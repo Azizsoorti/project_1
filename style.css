@@ -13,13 +13,11 @@ a{
     padding: 0;
 }
 
-#logo li{
-    list-style: none;
-}
 
-#logo li h6{
+
+ h6{
    font-weight: bold; 
-   font-size: 20px;
+   font-size: 30px;
 }
 
 .col-md-2:hover{
@@ -35,7 +33,7 @@ a{
 color: black;
 padding: 15px 6px;
 display: block;
-
+font-size: 13px;
 }
 
 #menu li a:hover{
@@ -50,7 +48,8 @@ background-color:rgb(105, 194, 253);
 
 .banner-content{
 
-    padding: 9rem;
+    padding: 5rem 0;
+
 }
 
 button{
@@ -61,3 +60,4 @@ button:hover{
     background-color:  rgb(33, 145, 219);
     color: white;
 }
+
