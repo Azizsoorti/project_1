@@ -35,6 +35,16 @@ img[ alt="beleive"] {
  border: 2px solid black;
   ;
 }
+.features_col{
+background-color:rgb(238, 242, 245); 
+transition: all 0.5s ease 0s;
+}
+.features_col:hover{
+background-color: rgb(105, 194, 253); ;
+color: aliceblue;
+}
+
+
 
 
 @media screen and (max-width:576px) {
@@ -70,6 +80,7 @@ img[alt="card_image"]{
   width: 100%;
 }
 
+
 .bottom_card{
   text-align: center;
 }
@@ -87,6 +98,15 @@ img[alt="card_image"]{
 .bottom_card{
   text-align: center;
 }
+
+.footer_col6{
+  padding: 2rem 2rem;
+}
+
+.footer_col3{
+  text-align: center;
+}
+
 
 }
 
