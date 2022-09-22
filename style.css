@@ -47,11 +47,16 @@ color: aliceblue;
 
 
 
+
 @media screen and (max-width:576px) {
 
 
   .btn_banner{
-    width:33%;
+  
+   max-width: 10rem;
+   height: 2.5rem;
+   padding: 0.5rem 0.3rem !important;
+margin: 0 auto 2rem auto ;
   }
 
 .banner_row{
@@ -64,7 +69,7 @@ color: aliceblue;
 }
 
 img[ alt="beleive"]{
-  padding-top: 3rem;
+margin-top: 2.5rem;
 }
 
 .believe_row{
@@ -84,16 +89,25 @@ img[alt="card_image"]{
 .bottom_card{
   text-align: center;
 }
+
+
+
+
 }
 
 
-@media screen and (max-width:740px){
+@media screen and (max-width:770px){
+  .card-feature_col_12{
+    padding: 0 1.5rem;
+  }
 .questions_col3{
   text-align: center;
-  padding-bottom: 2rem;  
+ margin-bottom: 3rem; 
 }
 .questions_col9{
-  text-align: center;  
+  text-align: center; 
+  padding: 0 1.5rem !important; 
+
 }
 .bottom_card{
   text-align: center;
@@ -107,6 +121,24 @@ img[alt="card_image"]{
   text-align: center;
 }
 
+.download_btn{
+display: flex;
+justify-content: center;
+position: relative;
 
 }
+.download_left{
+display: flex;
+margin-left: 1rem;
+}
+.download_right{
+ 
+  display: flex;
+  position: absolute;
+  margin-left: 5rem;
+}
 
+
+
+
+}
