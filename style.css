@@ -44,7 +44,9 @@ background-color: rgb(105, 194, 253); ;
 color: aliceblue;
 }
 
-
+input{
+  padding-left: 1rem;
+}
 
 
 
@@ -114,11 +116,12 @@ img[alt="card_image"]{
 }
 
 .footer_col6{
-  padding: 2rem 2rem;
+  padding: 1.5rem 1.5rem;
 }
 
 .footer_col3{
-  text-align: center;
+  padding: 1.5rem 1.5rem;
+  
 }
 
 .download_btn{
@@ -138,7 +141,10 @@ margin-left: 1rem;
   margin-left: 5rem;
 }
 
-
+.subscribe_btn{
+  margin-top: 1.5rem;
+  width: 12rem;
+}
 
 
 }
