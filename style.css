@@ -47,6 +47,21 @@ color: aliceblue;
 input{
   padding-left: 1rem;
 }
+.price_card{
+  transition: all 0.7s ease 0s;
+}
+
+.price_card:hover{
+background-color: rgb(105, 194, 253) !important;
+
+}
+.download_btn-inner{
+  transition: all 0.7s ease 0s;
+}
+.download_btn-inner:hover{
+background-color:  rgb(105, 194, 253) !important;
+border: 1px solid white;
+}
 
 
 
