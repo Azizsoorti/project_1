@@ -53,6 +53,7 @@ input{
 
 .price_card:hover{
 background-color: rgb(105, 194, 253) !important;
+border: 2px solid rgb(238, 242, 245);
 
 }
 .download_btn-inner{
