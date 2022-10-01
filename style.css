@@ -64,6 +64,15 @@ background-color:  rgb(105, 194, 253) !important;
 border: 1px solid white;
 }
 
+.video_area{
+
+  height: 80vh;
+  width: 100%;
+  background-image: url(./images/video-area.webp) ;
+  background-size: cover;
+  background-position: center; 
+  overflow: hidden;
+}
 
 
 
