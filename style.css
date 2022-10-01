@@ -66,6 +66,18 @@ border: 1px solid white;
 
 
 
+
+@media screen and (max-width:990px) {
+  .banner_row{
+    text-align: center;
+    margin: 4rem 1.5rem 2.5rem 1.5rem;
+  }
+
+
+}
+
+
+
 @media screen and (max-width:576px) {
 
 
@@ -162,5 +174,22 @@ margin-left: 1rem;
   width: 12rem;
 }
 
+.btn_banner{
+  
+  max-width: 10rem;
+  height: 2.5rem;
+  padding: 0.5rem 0.3rem !important;
+margin: 0 auto 2rem auto ;
+ }
+}
+
+@media screen and (max-width:1400px){
+.btn_banner{
+  
+  max-width: 10rem;
+  height: 2.5rem;
+  padding: 0.5rem 0.3rem !important;
+margin: 0 auto 2rem auto ;
+ }
 
 }
