@@ -192,13 +192,3 @@ margin: 0 auto 2rem auto ;
  }
 }
 
-@media screen and (max-width:1400px){
-.btn_banner{
-  
-  max-width: 10rem;
-  height: 2.5rem;
-  padding: 0.5rem 0.3rem !important;
-margin: 0 auto 2rem auto ;
- }
-
-}
