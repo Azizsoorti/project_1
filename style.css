@@ -107,6 +107,7 @@ border: 1px solid white;
   width: 100%;
   display: flex;
   justify-content: start;
+  padding-bottom: ;
 }
 }
 
@@ -219,6 +220,8 @@ margin-left: 1rem;
   padding: 0.5rem 0.3rem !important;
 margin: 0 auto 2rem auto ;
  }
- 
+ .copy_col4{
+  padding-bottom: 4rem;
+ }
 }
 
